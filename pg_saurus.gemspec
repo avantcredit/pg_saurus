@@ -89,7 +89,7 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<pg>, [">= 0"])
-      s.add_runtime_dependency(%q<rails>, ["< 4.2", "~> 4.0"])
+      s.add_runtime_dependency(%q<rails>, ["< 4.2"])
       s.add_development_dependency(%q<rspec-rails>, ["~> 3.1.0"])
       s.add_development_dependency(%q<yard>, [">= 0"])
       s.add_development_dependency(%q<metric_fu>, [">= 0"])
@@ -99,7 +99,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<pry-byebug>, [">= 0"])
     else
       s.add_dependency(%q<pg>, [">= 0"])
-      s.add_dependency(%q<rails>, ["< 4.2", "~> 4.0"])
+      s.add_dependency(%q<rails>, ["< 4.2"])
       s.add_dependency(%q<rspec-rails>, ["~> 3.1.0"])
       s.add_dependency(%q<yard>, [">= 0"])
       s.add_dependency(%q<metric_fu>, [">= 0"])
@@ -110,7 +110,7 @@ Gem::Specification.new do |s|
     end
   else
     s.add_dependency(%q<pg>, [">= 0"])
-    s.add_dependency(%q<rails>, ["< 4.2", "~> 4.0"])
+    s.add_dependency(%q<rails>, ["< 4.2"])
     s.add_dependency(%q<rspec-rails>, ["~> 3.1.0"])
     s.add_dependency(%q<yard>, [">= 0"])
     s.add_dependency(%q<metric_fu>, [">= 0"])

@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # To test against different rails versions with TravisCI
-rails_version = ENV['RAILS_VERSION'] || ['~> 4.0', '< 4.2']
+rails_version = ENV['RAILS_VERSION'] || ['< 4.2']
 
 # NOTE: This is a Gemfile for a gem.
 # Using 'platforms' is contraindicated because they won't make it into
